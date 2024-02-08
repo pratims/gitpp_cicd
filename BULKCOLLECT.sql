@@ -8,7 +8,7 @@ Create Table T_BulkCollect
     id int,
     order_id int,
     product_code varchar2(3),
-    amount number,
+    amount_item number,
     date_sale date
 );
 
@@ -21,6 +21,8 @@ Create Table T_BulkCollBKP
     amount number,
     date_sale date
 );
+
+
 
 
 Insert Into T_BulkCollect
